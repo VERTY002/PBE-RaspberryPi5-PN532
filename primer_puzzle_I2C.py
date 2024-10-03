@@ -11,8 +11,6 @@ class RfidReader:
 		#initialize the lector
 		PN532_I2C = Pn532I2c(Pn532I2c.RPI_BUS1) #use of the first bus I2C 1
 		self.nfc = Pn532(PN532_I2C)
-		#PN532_HSU = Pn532Hsu(Pn532Hsu.RPI_MINI_UART) #I also tried with RPI_PL011
-		#self.nfc = Pn532(PN532_HSU)
 		self.nfc.begin() #stars the communication with the PN532 reader
 		self.nfc.SAMConfig() #configures the PN532 so it can read a NFT modules
 		print("\f")

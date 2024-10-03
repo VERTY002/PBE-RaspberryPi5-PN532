@@ -23,7 +23,6 @@ class RfidReader:
 		print("Waiting for a NFT target...")
 		#success returns a boolean and uid is the UID binary value of the target
 		success, uid = self.nfc.readPassiveTargetID(pn532.PN532_MIFARE_ISO14443A_106KBPS)
-		print("success es", success)
 		if success:
 
 			#convert the uid (binary) to hex and then tu upper letters

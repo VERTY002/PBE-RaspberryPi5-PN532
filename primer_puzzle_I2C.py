@@ -1,3 +1,4 @@
+#libraries from https://github.com/gassajor000/pn532pi.git
 #imports from the pn532pi libraries 
 from pn532pi import Pn532I2c #class Pn532I2C to controll the comunicaction via I2C
 from pn532pi import Pn532Hsu #to controll the communication via UART

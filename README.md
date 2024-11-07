@@ -2,12 +2,14 @@ PBE (Basic Project of Engineering) is a course which I am taking in my third yea
 
 This project develops an Internet of Things client application that communicates with a server connected to a database.
 
--Parts of the project:
+*-Parts of the project:*
 
 First Puzzle: Using the Python3 language, implement a program that prints a uid-user identifier via console.
+
 ![imagen](https://github.com/user-attachments/assets/337b21e9-382a-4c16-a777-621571d6442c)
 
 Second Puzzle: Create a graphic version of the First Puzzle.
+
 ![imagen](https://github.com/user-attachments/assets/befe8404-5886-49d6-911a-aec54db64b79)
 
 Critical Design Review (CDR): Design an application similar to a moodle, in our case the one of our university UPC called Atenea. 

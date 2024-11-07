@@ -4,7 +4,7 @@ This project develops an Internet of Things client application that communicates
 
 **-Parts of the project:**
 
-**First Puzzle:** Using the Python3 language, implement a program that prints a uid-user identifier via console.
+**First Puzzle:** Using the Python3 language, implement a program that prints an uid-user identifier via console.
 
 ![imagen](https://github.com/user-attachments/assets/337b21e9-382a-4c16-a777-621571d6442c)
 
@@ -14,11 +14,10 @@ This project develops an Internet of Things client application that communicates
 
 Critical Design Review (CDR): Design an application similar to a moodle, in our case the one of our university UPC called Atenea. 
                               This application allows consulting the assignments, the timetable or the grades of a given student with an associated UID.
-                              This involves the creation of the server(PHP), the client (Python3) and the data base (SQL).
+                              This involves the creation of the server(PHP), the client (Python3) and the database (SQL).  CURRENTLY, UNDER CONSTRUCTION
 
 **-Resources and gadgets needed for the project:**
 
 In order to develop this project I used a Raspberry Pi 5 a PN532 NFC lector and a laptop.
 
 All the information and resources such as libraries and tutorials are in the Reports (PDF).
-

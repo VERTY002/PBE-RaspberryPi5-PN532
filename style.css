@@ -1,0 +1,12 @@
+.personalitzar {
+	background-color: rgba(52, 152, 219,  0.5);
+	color: #ffffff;
+	border-top: 2px solid #2988b9;
+	border-bottom: 2px solid #2988b9;
+	padding: 4px 2px;
+	margin: 10px
+}
+
+.button_style{
+	margin: 100px
+}

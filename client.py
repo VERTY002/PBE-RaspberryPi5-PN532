@@ -62,7 +62,7 @@ class CourseManager(Gtk.Grid):
    	 
     	if response.status_code == 200:
         	self.userName = response.text.strip()
-        	self.lcd.clear()  # Neteja la pantalla LCD
+        	self.lcd.clear() 
         	self.lcd.print(self.userName)
     	else:
         	self.userName = None
@@ -76,13 +76,13 @@ class CourseManager(Gtk.Grid):
     	self.label.destroy()
     	self.show_all()
 
-	# Crea un fil per consultar el servidor de manera concurrent
+	# Creem un fil per consultar el servidor de manera concurrent
 	def metodeThread(self, uid):
     	text = self.entry.get_text()
     	thread = threading.Thread(target=self.consultarServer, args=(text, uid))  # Passa el text i el UID
     	thread.start()
     
-	# Consulta el servidor
+	# Consulta al servidor
 	def consultarServer(self, text, uid):
     	request = text
     	self.req = request.split("?")[0]
@@ -142,7 +142,7 @@ class MyWindow(Gtk.Window):
     	self.set_default_size(800, 500)
     	self.connect("destroy", Gtk.main_quit)
 
-# Executa l'aplicació
+# main
 if __name__ == '__main__':
 	win = MyWindow()
 	win.__init__()

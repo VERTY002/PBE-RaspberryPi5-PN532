@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+h2 {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ff0000;
+}
+
+a {
+    display: block;
+    width: 95%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background: #45a049;
+}
+
+body {
+    background: url('aula_upc.jpeg') no-repeat center center fixed;
+    background-size: contain;
+}

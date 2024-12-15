@@ -1,6 +1,6 @@
 **PBE (Basic Project of Engineering)** is a course which I am taking in my third year of my degree in Telecommunications Engineering at UPC School of Telecommunications Engineering (ETSETB).
 
-This project develops an Internet of Things client application that communicates with a server connected to a database.
+This group project develops an Internet of Things client application that communicates with a server connected to a database.
 
 **-Parts of the project:**
 

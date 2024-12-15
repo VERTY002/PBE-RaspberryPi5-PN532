@@ -1,0 +1,46 @@
+/*style for cliente.py*/
+window {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el cuadro de login */
+.login-box {
+    background-color: #4ad347;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(21, 0, 114, 0.2);
+}
+
+/* Estilo para las etiquetas de texto */
+.login-label, .welcome-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.query-entry:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+/*  boton de logout */
+.logout-button {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+.query-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

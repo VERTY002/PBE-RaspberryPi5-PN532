@@ -27,7 +27,7 @@ This project develops an Internet of Things client application that communicates
 
 ![imagen](https://github.com/user-attachments/assets/012a2005-eb07-4346-a52f-61bb754a46b8)
 
-**WEB PAGE**
+**WEB SITE**
 
 This is the CDR website version (all the code is located in /var/www/html as I used nginx for this project)
 

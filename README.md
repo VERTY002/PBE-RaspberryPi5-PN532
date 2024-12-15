@@ -15,6 +15,7 @@ This project develops an Internet of Things client application that communicates
 **Critical Design Review (CDR):** Design an application similar to a moodle, in our case the one of our university UPC called Atenea. 
                               This application allows consulting the assignments, the timetable or the grades of a given student with an associated UID.
                               This involves the creation of the server(PHP), the client (Python3) ,the database (SQL) and styles (CSS).  
+                              
 **Login window**
 
 ![imagen](https://github.com/user-attachments/assets/6787bb60-d335-47c7-a849-bac185d3ed78)

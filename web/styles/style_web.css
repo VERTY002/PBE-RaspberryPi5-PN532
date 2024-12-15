@@ -1,0 +1,115 @@
+/* style_web.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.main-container h1 {
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-container button {
+    background: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-container button:hover {
+    background: #45a049;
+}
+
+.main-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.main-container table th, 
+.main-container table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.main-container table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.main-container form {
+    margin-bottom: 20px;
+}
+
+.main-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.main-container input[type="text"] {
+    width: calc(100% - 110px);
+    display: inline-block;
+}
+
+.main-container button[type="submit"] {
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+
+.main-container h1 {
+    font-size: 26px; /*es pot canviar la mida */
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #4caf50;
+    border: None;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button[type="submit"]:hover {
+    background: #45a049;
+}
+
+.search-form button[type="logout"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button[type="logout"]:hover {
+    background: #45a049;
+}
+
+body {
+    background: url('upc_nord.jpg') no-repeat center center fixed;
+    background-size: contain;
+}

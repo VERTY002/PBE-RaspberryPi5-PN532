@@ -14,8 +14,42 @@ This project develops an Internet of Things client application that communicates
 
 **Critical Design Review (CDR):** Design an application similar to a moodle, in our case the one of our university UPC called Atenea. 
                               This application allows consulting the assignments, the timetable or the grades of a given student with an associated UID.
-                              This involves the creation of the server(PHP), the client (Python3) and the database (SQL).  CURRENTLY, UNDER CONSTRUCTION
-                              THE ACTUAL PROGRAMS (client.py, server.py, atenea_pbe.sql, database.php and style.css)DONT WORK PORPERLY
+                              This involves the creation of the server(PHP), the client (Python3) ,the database (SQL) and styles (CSS).  
+**Login window**
+
+![imagen](https://github.com/user-attachments/assets/6787bb60-d335-47c7-a849-bac185d3ed78)
+
+**Consult query label**
+
+![imagen](https://github.com/user-attachments/assets/c9840292-b811-43f4-9e46-38cb0e422f7a)
+
+**Error message**
+
+![imagen](https://github.com/user-attachments/assets/012a2005-eb07-4346-a52f-61bb754a46b8)
+
+**WEB PAGE**
+
+This is the CDR website version (all the code is located in /var/www/html as I used nginx for this project)
+
+**Login screen**
+
+![imagen](https://github.com/user-attachments/assets/55108f68-0d9c-425f-bf11-1629fff71899)
+
+**Consult query label**
+
+![imagen](https://github.com/user-attachments/assets/9174ae17-a613-4fc2-9704-276751592162)
+
+**Error screen**
+
+If put the wrong credentials (don't match the database) a button that redirects you to the login screen appears:
+
+![imagen](https://github.com/user-attachments/assets/5d423348-d807-4fbc-8ab9-7f570ee3ffc0)
+![imagen](https://github.com/user-attachments/assets/46e6f5f8-44ba-4783-b49c-a6dbae31763b)
+
+Regaring errors, if you put an incorrect query, an error message pops up:
+
+![imagen](https://github.com/user-attachments/assets/e1a954b1-160e-4299-b86a-489b594d6662)
+
 
 **-Resources and gadgets needed for the project:**
 
